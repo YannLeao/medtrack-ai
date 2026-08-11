@@ -22,10 +22,10 @@ dependencies = [
 [dependency-groups]
 inference = [
   "easyocr==1.7.2",
-  "ultralytics==8.4.115",
+  "ultralytics==8.4.116",
 ]
 training = [
-  "ultralytics==8.4.115",
+  "ultralytics==8.4.116",
 ]
 dev = [
   "httpx>=0.28.1,<0.29",
@@ -33,7 +33,7 @@ dev = [
   "pytest>=9.1.1,<10",
   "pytest-cov>=7.1.0,<8",
   "pyright>=1.1.360,<2",
-  "ruff>=0.16.1,<1",
+  "ruff>=0.16.2,<1",
 ]
 
 [tool.hatch.build.targets.wheel]
